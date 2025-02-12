@@ -172,6 +172,23 @@
 
 <!-- first row -->
 
+<section  class="hero is-light is-small" id="teaser" >
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column">
+      </br>
+      <div class="video">
+        <video id="oursVideo_r2" muted autoplay="autoplay" loop="loop" width="100%">
+            <source src="./results1/teaser.mp4" type="video/mp4">
+        </video> 
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section  class="hero is-light is-small" id="abstract" >
   
   <div class="container is-max-desktop">
@@ -252,10 +269,10 @@
           </p>
         </div>
         <div class="buttons has-addons is-centered">
-          <button class="button" onclick="updateVideos2('base')">Without depth smoothing</button>
           <button class="button" onclick="updateVideos2('NoFm1')">Without frame matrix 1</button>
           <button class="button" onclick="updateVideos2('NoFm2')">Without frame matrix 2</button>
           <button class="button" onclick="updateVideos2('NoRI')">Without disocclusion boundary re-injection</button>
+          <button class="button" onclick="updateVideos2('base')">Without depth smoothing</button>
       </div>
       <div class="columns is-centered">
         <!-- <div class="column has-text-justified" style="flex: 5;  max-width: 50%">
@@ -527,9 +544,10 @@
       <center>
         <p>Using our frame matrix method, we are able to generate video trajectories through
           <span style="background-color: #F1CCB1;">space</span> (first two sequences) and
-          <span style="background-color: hwb(12 16% 15%);">time</span> (last two sequences), consistent with the <a href="#method-overview">Method Overview</a>.</p>
+          <span style="background-color: hwb(12 16% 15%);">time</span> (last two sequences). </p>
       </center>
-
+      <br>
+      <br>
       <!-- 2-->
       <div class="columns is-centered">
         <div class="column is-6">
@@ -624,16 +642,22 @@
     <video muted autoplay="autoplay" loop="loop" width="100%">
         <source src="./results1/3D_stereoscopic_videos/v1_teddy.mp4" type="video/mp4">
     </video> 
-  </div>
+  <br>
+  <br>
 
+  </div>
     <div class="column has-text-centered">
-      <p> Videos generated from a real monocular video </p>
+      <p> Videos generated from a real monocular video (left view to right view) </p>
     </div>
 
     <div class="video">
       <video muted autoplay="autoplay" loop="loop" width="100%">
           <source src="./results1/3D_stereoscopic_videos/car_drift.mp4" type="video/mp4">
       </video> 
+    </div>
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/camel.gif" width="100%"></image>
     </div>
 
     <div class="video">
@@ -647,6 +671,60 @@
           <source src="./results1/3D_stereoscopic_videos/trump.mp4" type="video/mp4">
       </video> 
     </div>
+
+    <!-- <div class="video">
+      <video muted autoplay="autoplay" loop="loop" width="100%">
+          <source src="./results1/3D_stereoscopic_videos/camel.mp4" type="video/mp4">
+      </video> 
+    </div> -->
+
+    <br>
+    <div class="column has-text-centered">
+      <p> Videos generated from a real monocular video (right view to left view) </p>
+    </div>
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/dog.gif" width="100%"></image>
+    </div>
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/cat.gif" width="100%"></image>
+    </div>
+
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/pinwheel.gif" width="100%"></image>
+    </div>
+
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/hand_apple.gif" width="100%"></image>
+    </div>
+
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/bear.gif" width="100%"></image>
+    </div>
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/mall.gif" width="100%"></image>
+    </div>
+
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/airport.gif" width="100%"></image>
+    </div>
+
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/fish.gif" width="100%"></image>
+    </div>
+
+
+    <div class="video">
+      <image src="./results1/3D_stereoscopic_videos/cafe.gif" width="100%"></image>
+    </div>
+
 
       </div>
     </div>
