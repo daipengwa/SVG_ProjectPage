@@ -109,6 +109,12 @@
             </span>
           </div>
 
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              ICLR 2025
+            </span>
+          </div>
+
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
@@ -147,7 +153,7 @@
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code (soon)</span>
+                  <span>Code (under review, coming soon)</span>
                   </a>
               <!-- </span>
               Dataset Link. -->
@@ -491,7 +497,7 @@
 
 
     <div class="columns is-centered has-text-centered">
-        <h2 class="title is-3">Generated Video Trajectories</h2>
+        <h2 class="title is-3">Mutli-View Videos</h2>
     </div>    
     
 
@@ -542,9 +548,9 @@
       </div>
       </div>
       <center>
-        <p>Using our frame matrix method, we are able to generate video trajectories through
-          <span style="background-color: #F1CCB1;">space</span> (first two sequences) and
-          <span style="background-color: hwb(12 16% 15%);">time</span> (last two sequences). </p>
+        <p> We can generate multi-view videos by outputting the whole frame matrix. We can fix time and change views
+          (<span style="background-color: #F1CCB1;">spatial video</span>, first two sequences), or view the scene from different camera perspectives
+          (<span style="background-color: hwb(12 16% 15%);">temporal video</span>, last two sequences). </p>
       </center>
       <br>
       <br>
@@ -596,7 +602,7 @@
       </div>
 
       <center>
-        <p>The frame matrix formulation is flexible and allows us also to extract different trajectories. The sequences still appear consistent, thanks to the row-and-column constraints.</p>
+        <p>The pre-defined camera trajectory used to formulate the frame matrix is flexible. In this case, we show a circle trajectory. The first two sequences are spatial videos, and the last two sequences are temporal videos. </p>
       </center>
       
   </div>
